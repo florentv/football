@@ -1,0 +1,298 @@
+{
+	"data": {
+		"versions": {
+			"min_version": "8.4.1",
+			"current_version": "8.4.1",
+			"url_update": "http:\/\/itunes.apple.com\/fr\/app\/canal-football-club\/id542610274?l=fr&ls=1&mt=8",
+			"min_version_and": "439",
+			"current_version_and": "439",
+			"url_update_and": "https:\/\/play.google.com\/store\/apps\/details?id=com.netcosports.andcanal",
+			"min_version_and_samsung": "121",
+			"current_version_and_samsung": "121",
+			"url_update_and_samsung": "samsungapps:\/\/ProductDetail\/com.netcosports.andcanal"
+		},
+		"UITabBarController": [{
+			"id": "6",
+			"active": "1",
+			"key": "tab_videos",
+			"type": "tab_videos",
+			"nom": "Actualit\u00e9s",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 0
+		}, {
+			"id": "69",
+			"active": "1",
+			"key": "tab_matchs",
+			"type": "tab_matchs",
+			"nom": "Multicam",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 1
+		}, {
+			"id": "3",
+			"active": "1",
+			"key": "tab_notes",
+			"type": "tab_notes",
+			"nom": "Notes",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 2,
+			"metaData": [{
+				"key_type": "current_match",
+				"key": "match_id",
+				"value": "374"
+			}]
+		}, {
+			"id": "4",
+			"active": "1",
+			"key": "tab_twitter",
+			"type": "tab_twitter",
+			"nom": "Live Tweet",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 3
+		}, {
+			"id": "2",
+			"active": "1",
+			"key": "subTree",
+			"type": "subTree",
+			"nom": "Comp\u00e9titions",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 4,
+			"subTree": [{
+				"id": "8",
+				"active": "1",
+				"key": "tab_competition",
+				"type": "subTreeHeader",
+				"nom": "Ligue 1",
+				"fk_app_id": "1",
+				"fk_parent_id": "2",
+				"id_order": 0,
+				"subTree": [{
+					"id": "12",
+					"active": "1",
+					"key": "tab_calendrier",
+					"type": "tab_schedule",
+					"nom": "Calendrier \/ R\u00e9sultats",
+					"fk_app_id": "1",
+					"fk_parent_id": "8",
+					"id_order": 0,
+					"metaData": [{
+						"key_type": "comp_id",
+						"key": "comp_id",
+						"value": "2"
+					}]
+				}, {
+					"id": "13",
+					"active": "1",
+					"key": "tab_classement",
+					"type": "tab_ranking",
+					"nom": "Classements",
+					"fk_app_id": "1",
+					"fk_parent_id": "8",
+					"id_order": 1,
+					"metaData": [{
+						"key_type": "comp_id",
+						"key": "comp_id",
+						"value": "2"
+					}]
+				}],
+				"metaData": [{
+					"key_type": "img_and_bg",
+					"key": "img_and_bg",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/8_img_and_bg_1390412685.png"
+				}, {
+					"key_type": "img_and_logo",
+					"key": "img_and_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/8_img_and_logo_1390412682.png"
+				}, {
+					"key_type": "img_iphone_logo",
+					"key": "img_iphone_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/8_img_iphone_logo_1390412677.png"
+				}, {
+					"key_type": "img_ipad_logo",
+					"key": "img_ipad_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/8_img_ipad_logo_1390412680.png"
+				}],
+				"tournament": false
+			}, {
+				"id": "47",
+				"active": "1",
+				"key": "",
+				"type": "subTreeHeader",
+				"nom": "Ligue des champions",
+				"fk_app_id": "1",
+				"fk_parent_id": "2",
+				"id_order": 1,
+				"subTree": [{
+					"id": "48",
+					"active": "1",
+					"key": "",
+					"type": "tab_schedule",
+					"nom": "Calendrier",
+					"fk_app_id": "1",
+					"fk_parent_id": "47",
+					"id_order": 0,
+					"metaData": [{
+						"key_type": "comp_id",
+						"key": "comp_id",
+						"value": "4"
+					}]
+				}, {
+					"id": "49",
+					"active": "1",
+					"key": "",
+					"type": "tab_ranking",
+					"nom": "Classement",
+					"fk_app_id": "1",
+					"fk_parent_id": "47",
+					"id_order": 1,
+					"metaData": [{
+						"key_type": "static",
+						"key": "comp_id",
+						"value": "4"
+					}]
+				}],
+				"metaData": [{
+					"key_type": "static",
+					"key": "img_and_bg",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/47_img_and_bg_1390932236.png"
+				}, {
+					"key_type": "static",
+					"key": "img_iphone_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/47_img_iphone_logo_1390932228.png"
+				}, {
+					"key_type": "static",
+					"key": "img_ipad_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/47_img_ipad_logo_1392808487.png"
+				}, {
+					"key_type": "static",
+					"key": "img_and_logo",
+					"value": "http:\/\/app-sport.canal-plus.com\/files\/teams\/api\/47_img_and_logo_1392808490.png"
+				}],
+				"tournament": false
+			}]
+		}, {
+			"id": "5",
+			"active": "1",
+			"key": "tab_pronos",
+			"type": "tab_pronos",
+			"nom": "Prono Ligue 1",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 5,
+			"metaData": [{
+				"key_type": "static",
+				"key": "auth_require_to_enter",
+				"value": "1"
+			}]
+		}, {
+			"id": "7",
+			"active": "1",
+			"key": "tab_settings",
+			"type": "tab_settings",
+			"nom": "Param\u00e8tres",
+			"fk_app_id": "1",
+			"fk_parent_id": null,
+			"id_order": 6
+		}],
+		"conf": {
+			"can_episode_id": "35",
+			"current_version_and": "439",
+			"current_version_and_samsung": "121",
+			"date_start": "1495306800",
+			"decnote": "40",
+			"duration": "8",
+			"match_id": "374",
+			"menu_default": "tab_videos",
+			"min_version_and": "439",
+			"min_version_and_samsung": "121",
+			"tab_can2013": "CAN 2013",
+			"tab_live": "MULTI CAM",
+			"tab_notes": "NOTES",
+			"tab_twitter": "LIVE TWEET",
+			"tab_videos": "ACTUALIT\u00c9S",
+			"text_intro_data": "",
+			"text_visible": "0",
+			"url_update_and": "https:\/\/play.google.com\/store\/apps\/details?id=com.netcosports.andcanal",
+			"url_update_and_samsung": "samsungapps:\/\/ProductDetail\/com.netcosports.andcanal",
+			"mc_score_aff": "1",
+			"multiplex_ids": "",
+			"tab_matchcenter": "STATS LIGUE 1",
+			"teams_assoc_krds": "{\"1134\":{\"id\":\"2130\",\"name\":\"Dijon\",\"shortname\":\"DFCO\"},\"204\":{\"id\":\"147\",\"name\":\"Montpellier\",\"shortname\":\"MHSC\"},\"205\":{\"id\":\"428\",\"name\":\"Guingamp\",\"shortname\":\"EAG\"},\"208\":{\"id\":\"146\",\"name\":\"Monaco\",\"shortname\":\"MON\"},\"212\":{\"id\":\"694\",\"name\":\"Lorient\",\"shortname\":\"LOR\"},\"220\":{\"id\":\"2128\",\"name\":\"Angers\",\"shortname\":\"SCO\"},\"225\":{\"id\":\"143\",\"name\":\"Lyon\",\"shortname\":\"OL\"},\"226\":{\"id\":\"427\",\"name\":\"Toulouse\",\"shortname\":\"TFC\"},\"235\":{\"id\":\"430\",\"name\":\"Nantes\",\"shortname\":\"NAN\"},\"236\":{\"id\":\"150\",\"name\":\"Rennes\",\"shortname\":\"REN\"},\"241\":{\"id\":\"139\",\"name\":\"Bastia\",\"shortname\":\"BAS\"},\"245\":{\"id\":\"1395\",\"name\":\"Nice\",\"shortname\":\"OGCN\"},\"248\":{\"id\":\"149\",\"name\":\"Paris SG\",\"shortname\":\"PSG\"},\"249\":{\"id\":\"1028\",\"name\":\"Caen\",\"shortname\":\"CAEN\"},\"252\":{\"id\":\"140\",\"name\":\"Bordeaux\",\"shortname\":\"BOR\"},\"261\":{\"id\":\"145\",\"name\":\"Metz\",\"shortname\":\"METZ\"},\"263\":{\"id\":\"152\",\"name\":\"St Etienne\",\"shortname\":\"ASSE\"},\"265\":{\"id\":\"148\",\"name\":\"Nancy\",\"shortname\":\"ASNL\"},\"266\":{\"id\":\"144\",\"name\":\"Marseille\",\"shortname\":\"OM\"},\"267\":{\"id\":\"429\",\"name\":\"Lille\",\"shortname\":\"LOSC\"}}",
+			"countdown_custom_next_rdv": "PROCHAIN RENDEZ-VOUS LIGUE 1",
+			"countdown_custom_text": "Voir l'actualit\u00e9 du Foot en vid\u00e9os",
+			"date_reprise": "",
+			"tab_pronos": "PRONO LIGUE 1",
+			"tab_settings": "PARAM\u00c8TRES",
+			"ios_smartactivation": "1",
+			"ios_smart3g": "1",
+			"pronostic_available": "false",
+			"pronostic_text": "\"Chaque parieur doit \u00e9tablir son classement pr\u00e9visionnel pour la saison 2016-2017.\\nVous pouvez le modifier jusqu\\'au 10 septembre 2016.\\nLe d\u00e9tail des points mis en jeu est \u00e0 retrouver dans la rubrique r\u00e8glement.\""
+		},
+		"Match": {
+			"match_id": "374",
+			"fk_comp_id": "2",
+			"match_date": "20\/05\/2017",
+			"match_heure": "11:09",
+			"match_statut": "termine",
+			"fk_equipe_id1": "4",
+			"fk_equipe_id2": "1",
+			"match_t1_fullname": "Marseille",
+			"match_t2_fullname": "Bastia",
+			"match_sm1": "1",
+			"match_sm2": "0",
+			"match_sf1": "1",
+			"match_sf2": "0",
+			"match_stade_id": null,
+			"match_stade_name": null,
+			"match_temps_joue": null,
+			"match_mi_temps": "0",
+			"match_arbitre_1": null,
+			"match_arbitre_2": null,
+			"match_arbitre_3": null,
+			"match_arbitre_4": null,
+			"episode_id": "374",
+			"match_note_user": "",
+			"match_note": "11,19",
+			"match_etat_note": "0",
+			"symah_id": null,
+			"match_affichemenez": "1",
+			"match_t1_shortname": "OM",
+			"match_t2_shortname": "BAS",
+			"datelieu": "",
+			"amisco_id": "0",
+			"match_menu": "TABLEAU DE BORD",
+			"fk_cams_id": "'cam50','cam05','cam06','cam07','cam03','cam09','cam01','cam11','cam04','cam02','cam12','cam08','cam10','cam13','cam14','NOSOURCE','canal05'",
+			"match_journe": "38",
+			"match_is_multiplex": "0",
+			"match_mapping": "a:29:{s:2:\"01\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam50\";}s:2:\"02\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam05\";}s:2:\"03\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam06\";}s:2:\"04\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam07\";}s:2:\"05\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam03\";}s:2:\"06\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam09\";}s:2:\"07\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam01\";}s:2:\"08\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}s:2:\"09\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam11\";}i:10;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:11;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:12;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:13;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam04\";}i:14;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam02\";}i:15;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam12\";}i:16;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:17;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:18;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam08\";}i:19;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam10\";}i:20;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam13\";}i:21;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:22;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:23;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}i:24;a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:5:\"cam14\";}s:6:\"bonus1\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:8:\"NOSOURCE\";}s:6:\"bonus2\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:7:\"canal05\";}s:6:\"bonus3\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}s:6:\"bonus4\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}s:6:\"bonus5\";a:2:{s:4:\"type\";i:0;s:4:\"flux\";s:4:\"FLUX\";}}",
+			"match_visible_date": "1495306800",
+			"match_note_visible": "1",
+			"match_note_visible_date": "1495306800",
+			"match_visible": "1",
+			"match_diffuseur": "6",
+			"match_type": "0",
+			"match_programmation": null,
+			"match_group": "-1",
+			"match_phase": "",
+			"match_archive": "0",
+			"match_fournisseur": "2",
+			"match_official_date": "1495306800",
+			"match_stat_plus_id": "853512",
+			"match_off_rights": "0",
+			"match_is_premium": "0",
+			"match_clip_provider": "canal",
+			"countdown": {
+				"countdown_text": "Voir l'actualit\u00e9 du Foot en vid\u00e9os",
+				"next_matches": [],
+				"countdown_custom_next_rdv": "PROCHAIN RENDEZ-VOUS LIGUE 1"
+			}
+		}
+	},
+	"key": "bcd0657b4d53edbdcd4eafd176d285cf0914d7d2",
+	"server_time": 1497443119,
+	"server_dec": "7200"
+}
